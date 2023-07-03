@@ -1,9 +1,10 @@
-body {
-    display: flex;
+* {
+    box-sizing: border-box;
 }
 
-div {
-    border: 1px solid black;
+body {
+    display: flex;
+    justify-content: center;
 }
 
 .first {
@@ -17,6 +18,15 @@ div {
 }
 
 .first div {
-    flex-basis: 25%;
-    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+button { 
+    z-index: 1;
+    font-size: 32px;
+    background-color:lightskyblue;
+    border: 1px solid rgb(50, 105, 138);
+    border-radius: 8px;
+    padding: 4px 16px;
+    margin: 64px;
 }
